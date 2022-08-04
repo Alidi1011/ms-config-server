@@ -1,4 +1,4 @@
-package com.example.ms_config_server;
+package com.example.msconfigserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
