@@ -1,0 +1,17 @@
+server:
+  port: 8081
+spring:
+  application:
+    name:
+      ms-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Alidi1011/project_configurations.git
+eureka:
+  client:
+    region: default
+    serviceUrl:
+      defaultZone: http://ms-eureka-server:8761/eureka/
+    registryFetchIntervalSeconds: 5
