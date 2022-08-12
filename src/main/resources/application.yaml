@@ -13,5 +13,5 @@ eureka:
   client:
     region: default
     serviceUrl:
-      defaultZone: http://ms-eureka-server:8761/eureka/
+      defaultZone: https://bootcamp-ms-config-server-g3.azurewebsites.net/eureka/
     registryFetchIntervalSeconds: 5
