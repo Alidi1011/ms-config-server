@@ -11,7 +11,9 @@ spring:
           uri: https://github.com/Alidi1011/project_configurations.git
 eureka:
   client:
-    region: default
     serviceUrl:
-      defaultZone: https://bootcamp-ms-eureka-server-g3.azurewebsites.net/eureka/
+      defaultZone: https://bootcamp-ms-eureka-server-g3.azurewebsites.net:443/eureka
     registryFetchIntervalSeconds: 5
+  instance:
+    secure-port-enabled: true
+    nonsecure-port-enabled: false
