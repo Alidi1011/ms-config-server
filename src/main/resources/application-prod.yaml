@@ -15,4 +15,3 @@ eureka:
     serviceUrl:
       defaultZone: http://ms-eureka-server:8761/eureka/
     registryFetchIntervalSeconds: 5
-    
